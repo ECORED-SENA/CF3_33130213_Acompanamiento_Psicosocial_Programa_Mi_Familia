@@ -1,17 +1,18 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Enfoque diferencial en discapacidad',
+    descripcionCurso:
+      'El programa Mi familia tiene como uno de sus propósitos la implementación, atención y acompañamiento psicosocial a las familias con niños, niñas y adolescentes u otros integrantes en situación de discapacidad desde un enfoque inclusivo, diferencial y comunitario.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },
@@ -32,14 +33,22 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'El carácter inclusivo del programa Mi familia',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              'Principios de la Convención sobre los derechos de las personas en situación de discapacidad en el programa Mi familia',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              'Las familias con niños, niñas y adolescentes en situación de discapacidad en la población objetivo del programa Mi familia y sus condiciones socioeconómicas',
+            hash: 't_1_2',
           },
         ],
       },
@@ -48,15 +57,39 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo:
+          'Aspectos diferenciales del acompañamiento psicosocial en familias con personas en situación de discapacidad',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo:
+              'La eliminación de barreras y los ajustes razonables para la atención inclusiva de las PcD y sus familias',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo:
+              'Elementos para el abordaje de la discapacidad desde el rol del profesional de acompañamiento familiar',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo:
+              'Abordaje de la discapacidad en la caracterización y el diagnóstico',
+            hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo:
+              'Acompañamiento desde un enfoque inclusivo y diferencial de la discapacidad',
+            hash: 't_2_4',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,31 +134,107 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'El carácter inclusivo del programa Mi familia',
+      referencia:
+        'ICBF. (2017). Guía orientadora para el acompañamiento a las familias de niños y niñas con discapacidad. Orientaciones técnicas para el talento humano. ICBF. ',
+      tipo: 'Guía',
+      link:
+        'https://www.icbf.gov.co/sites/default/files/procesos/g1.mo12.pp_guia_orientadora_de_acompanamiento_a_familias_con_ninos_y_ninas_con_discapacidad_v1.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        'Aspectos diferenciales del acompañamiento psicosocial en familias con personas en situación de discapacidad',
+      referencia: 'ICBF. (2017). Modelo  enfoque diferencial . ICBF. ',
+      tipo: 'Documento PDF',
+      link:
+        'https://www.icbf.gov.co/sites/default/files/procesos/md1.de_modelo_de_enfoque_diferencial_de_derechos_medd_v1.pdf',
+    },
+    {
+      tema: 'Ficha sociofamiliar',
+      referencia:
+        'ICBF. (2019). Guía para el registro de las variables de discapacidad en los sistemas de información del ICBF. ICBF. ',
+      tipo: 'Guía',
+      link:
+        'https://www.icbf.gov.co/system/files/procesos/g1.md1_.de_guia_para_el_registro_de_variables_de_discapacidad_en_los_sistemas_de_informacion_del_icbf_v2.pdf',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Ajustes razonables',
+      significado:
+        'Hace referencia a las modificaciones y adaptaciones que no impongan una carga desproporcionada o indebida de todo aquello que impide o limite la participación de las personas en situación de discapacidad en las actividades familiares, sociales y colectivas de la sociedad que habitan (UNICEF & ICBF, 2020).',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Barreras',
+      significado:
+        'Características de los espacios, las instituciones y de las personas que dificultan o impiden la participación de las PcD.',
+    },
+    {
+      termino: 'NNAcD',
+      significado:
+        'Abreviatura de niños, niñas y adolescentes en situación de discapacidad.',
+    },
+    {
+      termino: 'PAF',
+      significado: 'Abreviatura de Profesional de acompañamiento familiar.',
+    },
+    {
+      termino: 'PcD',
+      significado: 'Abreviatura de persona en situación de discapacidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ángulo, J., Carrero, A., De Oro, K., Pacheco, M.  & Villamizar, D.  (2021). Caracterización socioeconómica de las familias beneficiarias del programa Mi familia. Cruce base maestra - DNP. ICBF.',
+      link: '',
+    },
+    {
+      referencia:
+        'DNP. (2013). Conpes Social 166. Política pública nacional de discapacidad e inclusión social. DNP.',
+      link: 'https://colaboracion.dnp.gov.co/CDT/Conpes/Social/166.pdf',
+    },
+    {
+      referencia: 'ICBF. (2017). Modelo enfoque diferencial. ICBF.',
+      link:
+        'https://www.icbf.gov.co/sites/default/files/procesos/md1.de_modelo_de_enfoque_diferencial_de_derechos_medd_v1.pdf',
+    },
+    {
+      referencia:
+        'ICBF. (2019). Guía para el registro de las variables de discapacidad en los sistemas de información del ICBF. ICBF.',
+      link: '',
+    },
+    {
+      referencia:
+        'ICBF. (2020).  Proceso promoción y prevención. Ficha de caracterización sociofamiliar. ICBF.',
+      link:
+        'https://www.icbf.gov.co/system/files/procesos/f13.mo18.pp_formato_ficha_caracterizacion_socio_familiar_v1_0.pdf',
+    },
+    {
+      referencia:
+        'ICBF. (2020). Lineamiento técnico modalidad mi familia. ICBF.',
+      link:
+        'https://www.icbf.gov.co/system/files/procesos/lm10.pp_lineamiento_tecnico_administrativo_modalidad_mi_familia_v2.pdf',
+    },
+    {
+      referencia: 'ICBF. (2020). Manual operativo modalidad mi familia. ICBF.',
+      link:
+        'https://www.icbf.gov.co/system/files/procesos/mo18.pp_manual_operativo_modalidad_mi_familia_v4.pdf',
+    },
+    {
+      referencia:
+        'Naciones Unidas. (2014). Convención sobre los derechos de las personas con discapacidad. Guía de formación: serie de capacitación profesional Nº 19. Naciones Unidas.',
+      link:
+        'https://www.ohchr.org/Documents/Publications/CRPD_TrainingGuide_PTS19_sp.pdf',
+    },
+    {
+      referencia:
+        'Resolución 583 de 2018. [Ministerio de Salud y Protección Social]. Por la cual se implementa la certificación de discapacidad y el Registro de localización y caracterización de personas con discapacidad. Febrero 26 de 2018.',
+      link: '',
+    },
+    {
+      referencia:
+        'Unicef & ICBF. (2020). Acompañamiento a las familias de niños y niñas con discapacidad. Orientaciones técnicas para el talento humano. Unicef & ICBF.',
       link: '',
     },
   ],
@@ -145,24 +254,20 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Miroslava González Hernández',
+        cargo: 'Diseñadora y evaluadora instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Julia Isabel Roberto',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -173,26 +278,37 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Natalia Maldonado Delgado',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Juan Daniel Polanco',
+        cargo: 'Validación de diseño',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Marcia Elizabeth Solano Alvarez',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: '',
+        cargo: 'Validación de contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -201,16 +317,6 @@ export default {
       {
         nombre: 'Milady Tatiana Villamil Castellanos',
         cargo: 'Responsable del equipo de gestión de repositorio',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
     ],
