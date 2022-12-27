@@ -103,11 +103,16 @@
   background-color: #FFF6DB
   height: 280px
   width: 100%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 320px
 
 .bg_06
   background-color: #FDE2E2
   height: 280px
   width: 100%
+  @media (min-width: $bp-min-lg) and (max-width: $bp-max-xl)
+    height: 320px
+
 
 .tarjeta.color-primario
     width: 100%
@@ -233,14 +238,15 @@
 
 .m_card-imginf2
   .img-infografica__card, .img-infografica-b__card 
-      width: 505px   
+      width: 505px
+      right: 5% 
       @media (max-width: $bp-max-md)
         width: 510px
         right: 8%!important
         bottom: 14px!important
       @media (max-width: $bp-max-xs)
         width: 380px
-        right: -3%!important
+        right: 6%!important
         bottom: -3px!important
 
 .color2
@@ -346,10 +352,21 @@
     background-color: #5840e2
     background-image: url("../assets/curso/tema2/img25.svg");
     border: #5840e2
+    width: 50px
+    height: 50px
+    @media (max-width: $bp-max-xs)
+      width: 35px
+      height: 35px
 
 .slyder-a__bullets__item 
     background-color: #f2e3c2
     border-color: #f2e3c2
+    width: 15px
+    height: 15px
+    @media (max-width: $bp-max-xs)
+      width: 10px
+      height: 10px
+      margin: 0px 4px
 .slyder-a__bullets__item--active 
     background-color: #5840e2!important
     border-color: #5840e2!important
@@ -378,3 +395,6 @@
 .color_bloque-texto3
   .bloque-texto-g.color-secundario 
     background-color: #FFE69F!important
+
+.img144
+  max-width: 144px

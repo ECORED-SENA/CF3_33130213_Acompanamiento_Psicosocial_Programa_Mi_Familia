@@ -116,7 +116,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-xxl-4.col-xl-4.col-lg-6.col-md-10.mb-4.mb-lg-0(data-aos="fade-right")     
         .tarjeta-avatar
-          img.img-t.mx-auto(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
+          img.img144(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .row.justify-content-center.p-4
               .col-lg-10.col-xl-12.col-xxl-10
@@ -128,7 +128,7 @@
                 p De acuerdo con Ángulo, Carrero, De Oro, Pacheco, & Villamizar (2021), durante la vigencia 2020 y en medio de la emergencia sanitaria por el covid-19, a través del programa Mi familia se atendieron 64.169 familias, 2.727 de ellas con niños, niñas y adolescentes en situación de discapacidad, lo que representa el 4 % de las familias beneficiarias. 
       .col-xxl-4.col-xl-4.col-lg-6.col-md-10(data-aos="fade-left") 
         .tarjeta-avatar
-          img.img-t.mx-auto(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
+          img.img144(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
           .tarjeta.color-secundario
             .row.justify-content-center.p-4
               .col-lg-8

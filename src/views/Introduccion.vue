@@ -16,7 +16,7 @@
       iframe(width="560" height="315" src="https://www.youtube.com/embed/U1rc8XF0UaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .bg_color1.p-4
-      .row.align-items-center
+      .row.justify-content-center.align-items-center
         .col-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
           img.img-t.m-auto(src='@/assets/curso/introduccion/img01.svg')
         .col-lg-10(data-aos="fade-left")
