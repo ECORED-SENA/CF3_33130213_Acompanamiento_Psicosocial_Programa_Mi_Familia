@@ -361,9 +361,9 @@
             img.img-t.mx-auto(src='@/assets/curso/tema2/img24.png', alt='AvatarTop')
 
     .row.mb-4.mb-lg-5
-      .col-lg-2.col-md-4.col-7
-        .bg_14.p-2
-          p.m-0.text-white.text-bold.text-center Genograma y ecomapa
+      .col-lg-2.col-xl-3.col-xxl-2.col-md-4.col-7
+        .bg_14.p-2.px-4
+          p.m-0.text-white.text-bold Genograma y ecomapa
 
     p.mb-5 Estos dos instrumentos no tienen aspectos diferenciales cuando se aplican a familias con PcD;sin embargo, es importante que se realice con especial cuidado el diligenciamiento de la información para las PcD, graficando, por ejemplo, el tipo de relación que tiene la PcD con cada uno de los integrantes de la familia y de esta forma tener elementos que permitan comprender el nivel de participación de la PcD en las dinámicas familiares y el involucramiento de cada uno de los integrantes de la familia en el cuidado de la PcD, en caso de ser necesario. 
 
@@ -399,7 +399,7 @@
             img.img-t.m-auto(src='@/assets/curso/tema2/img27.svg') 
         .col-lg-8(data-aos="fade-left")
           p Por ejemplo, puede cambiar el proceso de diligenciamiento autónomo por uno donde el PAF lee las preguntas y las opciones de respuesta a la PcD para que ella pueda seleccionar la respuesta que mejor describa su opinión o percepción, apoyarse en un intérprete de la familia o de la comunidad, etc. 
-          p Si el PAF tiene dudas al respecto puede conversar con su Unidad de acompañamiento familiar o su Unidad de asistencia técnica, para seleccionar una opción que maximice la posibilidad de participación por parte de las PcD .  
+          p Si el PAF tiene dudas al respecto puede conversar con su Unidad de acompañamiento familiar o su Unidad de asistencia técnica, para seleccionar una opción que maximice la posibilidad de participación por parte de las PcD.  
 
     Separador
 

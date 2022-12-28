@@ -20,7 +20,7 @@
 
     figure
     .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/NNUiYFjg9hg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/U1rc8XF0UaU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     p.mb-5 Los programas que atienden a la población en situación de discapacidad –PcD- y a sus familias desde una perspectiva inclusiva, es decir, donde pueden recibir bienes y servicios en conjunto con el resto de la población, sin ser excluidos o confinados en servicios en los que no tienen oportunidad de interactuar con el resto de la población o hacer presencia en la sociedad responden a una visión sobre la discapacidad que deja de lado la perspectiva del castigo, el error o la enfermedad y demandan el reconocimiento de la población en situación de discapacidad como sujetos de derechos.
 
@@ -114,7 +114,7 @@
         p La presencia de un integrante en situación de discapacidad, en especial si se trata de un niño, niña o adolescente, puede intensificar el nivel de riesgo que enfrenta una familia por razones relacionadas con la mayor carga de cuidado, la necesidad de una mayor disposición de tiempo para asistir a servicios médicos o de rehabilitación y las barreras de acceso a los servicios sociales que suelen enfrentar las PcD. Por lo anterior, la Política pública de discapacidad e inclusión plasmada en el Conpes Social 166 (DNP, 2013) establece el compromiso del ICBF de brindar apoyo y promover el fortalecimiento de las familias con niños, niñas y adolescentes en situación de discapacidad NNAcD, en tanto reconoce los mayores riesgos y las barreras que enfrentan. Ejemplo de ello se presenta en los datos que se exponen en el siguiente recurso. 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-xxl-4.col-xl-4.col-lg-6.col-md-10.mb-4.mb-lg-0(data-aos="fade-right")     
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-10.mb-4.mb-lg-0(data-aos="fade-right")     
         .tarjeta-avatar
           img.img144(src='@/assets/curso/tema1/img08.svg' alt='AvatarTop')
           .tarjeta.color-primario
@@ -126,7 +126,7 @@
             .row.justify-content-lg-center
               .col-12.col-lg-11
                 p De acuerdo con Ángulo, Carrero, De Oro, Pacheco, & Villamizar (2021), durante la vigencia 2020 y en medio de la emergencia sanitaria por el covid-19, a través del programa Mi familia se atendieron 64.169 familias, 2.727 de ellas con niños, niñas y adolescentes en situación de discapacidad, lo que representa el 4 % de las familias beneficiarias. 
-      .col-xxl-4.col-xl-4.col-lg-6.col-md-10(data-aos="fade-left") 
+      .col-xxl-4.col-xl-5.col-lg-6.col-md-10(data-aos="fade-left") 
         .tarjeta-avatar
           img.img144(src='@/assets/curso/tema1/img09.svg' alt='AvatarTop')
           .tarjeta.color-secundario
@@ -155,14 +155,14 @@
 
     .bg_03.p-2.p-lg-5.mb-4.mb-lg-5
       .row.justify-content-center
-        .col-lg-10.col-12(data-aos="fade-right")
+        .col-lg-10.col-xl-12.col-xxl-10.col-12(data-aos="fade-right")
           .bg_08
             .row.justify-content-center.mb-4.mb-lg-0
               .col-xxl-2.col-xl-2.col-lg-1(data-aos="fade-right")
                 figure
                   img.img-t.m-auto(src='@/assets/curso/tema1/img11.svg')
               .col-xxl-10.col-xl-10.col-lg-11(data-aos="fade-left")
-                p.ms-lg-4 El Sisbén IV permite clasificar a los hogares en cuatro grupos, de acuerdo con su capacidad para generar ingresos <b>(A: pobreza extrema, B: pobreza moderada, C: vulnerables y, D: ni pobres, ni vulnerables)</b>. A partir del cruce mencionado se encontró que, dentro de las familias beneficiarias de Mi familia en 2020 las que presentan mayores desventajas en términos de pobreza son aquellas que tienen NNAcD.
+                p.ms-lg-4.ms-xl-0.ms-xxl-4 El Sisbén IV permite clasificar a los hogares en cuatro grupos, de acuerdo con su capacidad para generar ingresos <b>(A: pobreza extrema, B: pobreza moderada, C: vulnerables y, D: ni pobres, ni vulnerables)</b>. A partir del cruce mencionado se encontró que, dentro de las familias beneficiarias de Mi familia en 2020 las que presentan mayores desventajas en términos de pobreza son aquellas que tienen NNAcD.
             ImagenInfografica.color-acento-botones.t_img-info.m_card-imginf.d-none.d-lg-block(data-aos="fade-down-right")
               template(v-slot:imagen)
                 figure(data-aos="zoom-in-up")
