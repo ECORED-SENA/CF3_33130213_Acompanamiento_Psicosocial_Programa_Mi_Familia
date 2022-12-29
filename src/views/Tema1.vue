@@ -86,7 +86,7 @@
         .col-lg-2
           .row.justify-content-end
             .col-lg-4
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('downloads/InfografiaFAM.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
